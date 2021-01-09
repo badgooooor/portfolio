@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="landing-container flex-col">
+    <div id="about" className="landing-container flex-col">
       <div className="content-heading">About</div>
       <div className="about-wrapper">
         <div className="about-content">
@@ -14,7 +14,7 @@ export default function About() {
           <img 
             src="/profile.jpg"
             alt="Profile image"
-            className="block m-auto h-64"
+            className="block m-auto h-64 shadow-lg border-b-4 border-r-4 border-razzmatazz"
           />
         </div>
       </div>

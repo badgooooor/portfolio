@@ -5,8 +5,8 @@ export default function Landing() {
         <div className="landing-subheading">Hi, my name is </div>
         <div className="landing-heading">Yuttakhan Baingen</div>
         <div className="landing-text">
-          I enjoy building things e.g. applications and embedded system. <br />
-          I also love in solving problem related to business or communities.
+          Computer Engineering Student / Software Engineer <br />
+          Maker / Investing in knowledge, equities, funds and cryptocurrencies
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
 import WorkItem from "./WorkItem";
 
+import projects from "../content/projects.json";
+
 export default function WorkList() {
   return (
     <div className="landing-container flex-col">
@@ -7,11 +9,18 @@ export default function WorkList() {
         Other works and projects I've worked
       </div>
       <div className="work-list-container">
-        <WorkItem />
-        <WorkItem />
-        <WorkItem />
-        <WorkItem />
-        <WorkItem />
+        {
+          projects.map((project, _) => {
+            if (project.featured == false || !project.featured) {
+              return <WorkItem 
+                name={project.name}
+                description={project.description}
+                srcUrl={project.srcUrl}
+                url={project.url}
+              />
+            }
+          })
+        }
       </div>
     </div>
   );
