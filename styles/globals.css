@@ -12,7 +12,7 @@ body {
 
 @layer components {
   .navbar-container {
-    @apply fixed flex w-screen flex-row text-robins-egg-blue justify-between px-4 py-4 bg-bunting-500 shadow-lg;
+    @apply fixed flex w-screen z-10 flex-row text-robins-egg-blue justify-between px-8 py-4 bg-bunting-500 shadow-lg;
   }
 
   .navbar-items {
@@ -24,7 +24,7 @@ body {
   }
 
   .navbar-resume {
-    @apply px-2 mx-2 border;
+    @apply px-2 mx-2 border border-razzmatazz transition duration-300 ease-in-out hover:bg-razzmatazz hover:bg-opacity-50;
   }
 
   .landing-container {
