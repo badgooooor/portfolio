@@ -12,7 +12,7 @@ body {
 
 @layer components {
   .navbar-container {
-    @apply fixed flex w-screen flex-row justify-between px-4 py-4 bg-blue-500 shadow-lg;
+    @apply fixed flex w-screen flex-row text-robins-egg-blue justify-between px-4 py-4 bg-bunting-500 shadow-lg;
   }
 
   .navbar-items {
@@ -20,7 +20,7 @@ body {
   }
 
   .navbar-item {
-    @apply px-2;
+    @apply px-2 transition duration-300 ease-in-out hover:text-razzmatazz;
   }
 
   .navbar-resume {
@@ -28,27 +28,27 @@ body {
   }
 
   .landing-container {
-    @apply flex justify-center items-center min-h-screen bg-green-500;
+    @apply flex justify-center text-robins-egg-blue items-center min-h-screen bg-bunting-500;
   }
 
   .landing-subheading {
-    @apply text-lg;
+    @apply text-lg text-razzmatazz;
   }
 
   .landing-heading {
-    @apply text-4xl pb-4;
+    @apply text-4xl text-robins-egg-blue pb-4;
   }
 
   .landing-text {
-    @apply text-lg;
+    @apply text-lg text-robins-egg-blue-200;
   }
 
   .content-heading {
-    @apply flex flex-row w-full lg:w-3/5 bg-red-500 px-16 py-2 text-xl;
+    @apply flex flex-row w-full lg:w-3/5 px-16 py-2 text-xl text-razzmatazz;
   }
 
   .about-wrapper {
-    @apply flex flex-row flex-wrap justify-center w-full lg:w-3/5 bg-gray-500 px-16 py-4;
+    @apply flex flex-row flex-wrap justify-center w-full lg:w-3/5 px-16 py-4;
   }
 
   .about-content {
@@ -60,7 +60,7 @@ body {
   }
 
   .featured-item-wrapper {
-    @apply flex flex-row flex-wrap md:w-3/4 lg:w-3/5 m-8 bg-blue-500 shadow-lg;
+    @apply flex flex-row flex-wrap text-bunting md:w-3/4 lg:w-3/5 m-8 bg-white shadow-lg;
   }
 
   .featured-item-content {
@@ -68,7 +68,7 @@ body {
   }
 
   .work-list-container {
-    @apply grid grid-cols-3 gap-4 w-full lg:w-3/5 px-8;
+    @apply grid grid-cols-3 text-bunting gap-4 w-full lg:w-3/5 px-8;
   }
 
   .work-item-wrapper {
