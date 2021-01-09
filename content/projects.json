@@ -1,0 +1,44 @@
+[
+  {
+    "name": "LINE Oldies (LINE HACK 2020 Finalist)",
+    "description": "Chatbot for elder, using LINE Messaging API and M5Stick",
+    "featured": true,
+    "srcUrl": "https://github.com/borbier/oldies-bot"
+  },
+  {
+    "name": "PM2.5 Visualization (TESA TOP GUN RALLY 2020)",
+    "description": "Retrieve data from STM32 Microcontoller and display on website.",
+    "featured": true
+  },
+  {
+    "name": "Bright Beat Table",
+    "description": "LED Light Table with STM32, ws2812b and msge7",
+    "featured": true,
+    "srcUrl": "https://github.com/borbier/bright-beat-table"
+  },
+  {
+    "name": "CE Grader",
+    "description": "Programming challenges website for freshmen",
+    "srcUrl": "https://github.com/borbier/grader-frontend"
+  },
+  {
+    "name": "Uniform reservation website",
+    "description": "Place reservation of uniform for freshmen in Faculty of Engineering",
+    "srcUrl": "https://github.com/borbier/smoeng-uniform"
+  },
+  {
+    "name": "Implementation of NodeMCU and web with Socket.io",
+    "description": "Demonstration example of implementing smart home device with Socket.io",
+    "srcUrl": "https://github.com/borbier/nodemcu-with-socket.io"
+  },
+  {
+    "name": "Crossy",
+    "description": "Implement simple smart contract for storing swap contract",
+    "srcUrl": "https://github.com/borbier/crossy-contract"
+  },
+  {
+    "name": "stm32f7xxxx-ws2812b",
+    "description": "Modification of ws2812b library for stm32",
+    "srcUrl": "https://github.com/borbier/stm32f7xxxx-ws2812b"
+  }
+]
