@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -6,11 +10,68 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer components {
+  .navbar-container {
+    @apply fixed flex w-screen flex-row justify-between px-4 py-4 bg-blue-500 shadow-lg;
+  }
 
-* {
-  box-sizing: border-box;
+  .navbar-items {
+    @apply flex flex-row;
+  }
+
+  .navbar-item {
+    @apply px-2;
+  }
+
+  .navbar-resume {
+    @apply px-2 mx-2 border;
+  }
+
+  .landing-container {
+    @apply flex justify-center items-center min-h-screen bg-green-500;
+  }
+
+  .landing-subheading {
+    @apply text-lg;
+  }
+
+  .landing-heading {
+    @apply text-4xl pb-4;
+  }
+
+  .landing-text {
+    @apply text-lg;
+  }
+
+  .content-heading {
+    @apply flex flex-row w-full lg:w-3/5 bg-red-500 px-16 py-2 text-xl;
+  }
+
+  .about-wrapper {
+    @apply flex flex-row flex-wrap justify-center w-full lg:w-3/5 bg-gray-500 px-16 py-4;
+  }
+
+  .about-content {
+    @apply w-full md:w-1/2 py-2;
+  }
+
+  .content-container {
+    @apply flex justify-center py-8 bg-green-500;
+  }
+
+  .featured-item-wrapper {
+    @apply flex flex-row flex-wrap md:w-3/4 lg:w-3/5 m-8 bg-blue-500 shadow-lg;
+  }
+
+  .featured-item-content {
+    @apply w-full md:w-1/2;
+  }
+
+  .work-list-container {
+    @apply grid grid-cols-3 gap-4 w-full lg:w-3/5 px-8;
+  }
+
+  .work-item-wrapper {
+    @apply w-full p-8 mx-1 my-4 bg-white shadow-lg;
+  }
 }
