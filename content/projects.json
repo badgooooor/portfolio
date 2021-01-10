@@ -8,13 +8,15 @@
   {
     "name": "PM2.5 Visualization (TESA TOP GUN RALLY 2020)",
     "description": "Retrieve data from STM32 Microcontoller and display on website.",
-    "featured": true
+    "featured": true,
+    "imgSrc": "/featured/featured-pm25.png"
   },
   {
     "name": "Bright Beat Table",
     "description": "LED Light Table with STM32, ws2812b and msge7",
     "featured": true,
-    "srcUrl": "https://github.com/borbier/bright-beat-table"
+    "srcUrl": "https://github.com/borbier/bright-beat-table",
+    "imgSrc": "/featured/featured-table.jpg"
   },
   {
     "name": "CE Grader",
