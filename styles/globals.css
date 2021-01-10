@@ -72,7 +72,7 @@ body {
   }
 
   .work-list-container {
-    @apply grid grid-cols-3 text-bunting gap-4 w-full lg:w-3/5 px-8;
+    @apply grid lg:grid-cols-3 md:grid-cols-1 text-bunting gap-4 w-full md:w-4/5 px-8;
   }
 
   .work-item-wrapper {
