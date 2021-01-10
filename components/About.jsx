@@ -1,7 +1,9 @@
 export default function About() {
   return (
     <div id="about" className="landing-container flex-col">
-      <div className="content-heading">About</div>
+      <div className="content-heading">
+        About
+      </div>
       <div className="about-wrapper">
         <div className="about-content">
           Hello, I'm Bier, a software engineer.<br />

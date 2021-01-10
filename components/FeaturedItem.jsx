@@ -11,7 +11,7 @@ export default function FeaturedItem({ name, description, imgSrc, srcUrl, url })
           />
       </div>
       <div className="featured-item-content relative py-8 px-2">
-        <div className="text-xl pb-4">{name}</div>
+        <div className="font-semibold	text-xl pb-4">{name}</div>
         <div className="text-lg">{description}</div>
         <div className="absolute top-0 right-0 flex flex-row p-2">
           {srcUrl && <a href={srcUrl} className="p-2"><FiGithub size={32} /></a>}

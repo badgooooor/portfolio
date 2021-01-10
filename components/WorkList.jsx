@@ -7,6 +7,7 @@ export default function WorkList() {
     <div className="landing-container flex-col">
       <div className="content-heading">
         Other works and projects I've worked
+        <div className="w-full bg-razzmatazz h-1"></div>
       </div>
       <div className="work-list-container">
         {

@@ -7,6 +7,7 @@ export default function Featured() {
     <div id="projects" className="landing-container flex-col">
       <div className="content-heading">
         Featured projects
+        <div className="w-full bg-razzmatazz h-1"></div>
       </div>
       {
         projects.map((project, _) => {
@@ -16,6 +17,7 @@ export default function Featured() {
               description={project.description}
               srcUrl={project.srcUrl}
               url={project.url}
+              imgSrc={project.imgSrc}
             />
           }
         })
