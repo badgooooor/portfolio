@@ -27,16 +27,20 @@ body {
     @apply px-2 mx-2 border border-razzmatazz transition duration-300 ease-in-out hover:bg-razzmatazz hover:bg-opacity-50;
   }
 
+  .contact-sidebar-item {
+    @apply p-2 transition duration-300 text-bunting ease-in-out hover:shadow-lg hover:bg-robins-egg-blue hover:text-razzmatazz;
+  }
+
   .landing-container {
     @apply flex justify-center text-robins-egg-blue items-center min-h-screen bg-bunting-500;
   }
 
   .landing-subheading {
-    @apply text-lg text-razzmatazz;
+    @apply text-lg font-semibold text-razzmatazz;
   }
 
   .landing-heading {
-    @apply text-4xl text-robins-egg-blue pb-4;
+    @apply text-4xl font-bold	text-robins-egg-blue pb-4;
   }
 
   .landing-text {
@@ -44,7 +48,7 @@ body {
   }
 
   .content-heading {
-    @apply flex flex-row w-full lg:w-3/5 px-16 py-2 text-xl text-razzmatazz;
+    @apply flex flex-row w-full lg:w-3/5 px-16 py-2 font-bold text-xl text-razzmatazz;
   }
 
   .about-wrapper {
